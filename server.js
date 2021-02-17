@@ -5,5 +5,5 @@ const server = http.createServer((req, res) => {
   const body = fs.readFileSync(`./public/index.html`)
   res.end(body)
 })
-server.listen(3000)
+server.listen(process.env.PORT || 5000)
 console.log('Server started')
