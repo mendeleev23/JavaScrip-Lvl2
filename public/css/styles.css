@@ -1316,6 +1316,12 @@
     .black__item {
       padding-top: 48px;
     }
+
+    .black__img{
+        width: 40px;
+        margin-left: 150px;
+    }
+    
     .black__item:last-child {
       margin-bottom: 81px;
     }
